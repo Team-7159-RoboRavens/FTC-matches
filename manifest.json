@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "FTC Matches (Raw HTML Ver.)",
+    "name": "FTC Matches (Raw HTML/JS Ver.)",
     "description": "Lists a team's matches in a FTC event \"on deck\" / \"next up\" counter.",
-    "version": "0.6.1",
+    "version": "0.6.2",
     "action":{
         "default_popup": "extension.html"
     },
@@ -18,5 +18,11 @@
     "options_ui": {
         "page": "settings.html",
         "open_in_tab": false
+    },
+    "icons":{
+        "16": "images/ftc_whiteborder_tilted_16.png",
+        "48": "images/ftc_whiteborder_tilted_48.png",
+        "128": "images/ftc_whiteborder_tilted_128.png",
+        "1024": "images/ftc_whiteborder_tilted_1024.png"
     }
 }
